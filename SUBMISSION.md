@@ -16,9 +16,11 @@ The below questions should be answered regarding your submission!
 
 ##### Did you receive help from any other sources (classmates, etc)? If so, please list who (be specific!). #####
 > Jooniel, Luis, and the questions that are answered on Slack, as well as a couple questions/examples on Stack Overflow.
+>
 > JSON stuffs:
 >   http://stackoverflow.com/questions/7634518/getting-jsonobject-from-jsonarray
 >   http://stackoverflow.com/questions/3408985/json-array-iteration-in-android-java
+>
 > ViewStub stuffs:
 >   http://stackoverflow.com/questions/11577777/how-to-use-view-stub-in-android
 
