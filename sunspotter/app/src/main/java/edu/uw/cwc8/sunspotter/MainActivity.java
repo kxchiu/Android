@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
 
     public class WeatherSearchTask extends AsyncTask<String, Void, JSONObject> {
 
+        //download JSON string from OpenWeatherMap with the given city name
+        //return the JSON string as a JSON Object with forecast data
         protected JSONObject doInBackground(String... params){
 
             String zipCode = params[0].trim().replace(" ", "%20");
@@ -146,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
             return weathers;
         }
 
-
+        //pull forecast data from the JSON Object and display them in a formatted manner
         protected void onPostExecute(JSONObject weathers){
             //super.onPostExecute(weathers);
 
