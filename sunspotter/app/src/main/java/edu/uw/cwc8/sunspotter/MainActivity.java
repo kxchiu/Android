@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
         protected JSONObject doInBackground(String... params){
 
-            String zipCode = params[0];
+            String zipCode = params[0].trim().replace(" ", "%20");
 
             //construct the url for the omdbapi API
             String urlString = "";
