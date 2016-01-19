@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             //construct the url for the omdbapi API
             String urlString = "";
             Log.v(TAG, "Constructing URL String");
-            urlString = "http://api.openweathermap.org/data/2.5/forecast?id=" + zipCode + "&APPID=09c59918b78220db20de151e6a44939a";
+            urlString = "http://api.openweathermap.org/data/2.5/forecast?q=" + zipCode + "&APPID=09c59918b78220db20de151e6a44939a";
             Log.v(TAG, "URL String is " + urlString);
 
             HttpURLConnection urlConnection = null;
